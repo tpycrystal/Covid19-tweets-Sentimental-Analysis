@@ -31,7 +31,7 @@
 * **barplot the amount of positive, negative, and neural tweets**  
 From July to August in 2020 there are more positive tweets with 70049 tweets compare to the others:  62520 Neural tweets, and 46539 Negative tweets.  
 * **Daily Tweets Sentimental Analysis**  
-There is a similar trend among three types of tweets.   
+Using plotly to plot, shows label, date, and counts of each type of tweets.    
 ### Conclusion  
-Most of the time there are more positive tweets, I did notice during 08/14 to 08/16 the amount of neural tweets exceed positive.
+There is a similar trend among three types of tweets. Most of the time there are more positive tweets, I did notice during 08/14 to 08/16 the amount of neural tweets exceed positive.
   
