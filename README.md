@@ -1,5 +1,5 @@
-# Covid19-tweets-Sentimental-Analysis (07/2020 - 08/2020)
-file:///C:/Users/Crystal/Documents/Covid19%20tweets%20Sentimental%20Analysis/Covid19-tweets-Sentimental-Analysis/Sentimental%20Analysis%20on%20COVID-19%20Tweets%20using%20python.html
+# Covid19-tweets-Sentimental-Analysis (07/2020 - 08/2020)  
+
 ### Import Dataset  
   Read csv : 'https://raw.githubusercontent.com/gabrielpreda/covid-19-tweets/master/covid19_tweets.csv'  
 ### Preprocess and prepare our text data for Sentimental Analysis
