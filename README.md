@@ -18,7 +18,7 @@
    
    
 ### Sentimental Analysis 
-* **Get the polarity scores for each tweets**  
+* **Adding Scores and Labels to the DataFrame**  
   Use **SentimentIntensityAnalyzer()** to determining whether a piece of writing is **positive, negative or neutral**. It will return score of positive, negative, neutral, 
   and coompound score. The Compound score is a metric that calculates the sum of all the lexicon ratings which have been normalized between 
   -1(most extreme negative) and +1 (most extreme positive).  
