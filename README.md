@@ -35,4 +35,7 @@ From July to August in 2020 there are more positive tweets with 70049 tweets com
 Using plotly to plot, shows label, date, and counts of each type of tweets.    
 ### Conclusion  
 There is a similar trend among three types of tweets. Most of the time there are more positive tweets, I did notice during 08/14 to 08/16 the amount of neural tweets exceed positive.
+
+### Problem
+The difficult I encountered is that plotly couldn't show on github. So I export the figure as a png file.
   
