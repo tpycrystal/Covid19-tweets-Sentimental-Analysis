@@ -24,7 +24,7 @@
   -1(most extreme negative) and +1 (most extreme positive).  
   
 * **Give each Tweet a label based on the compound score**  
-  Compound score is the normal of the 3 values negative, positive and neutral.  
+  **Compound score** is the normal of the 3 values negative, positive and neutral.  
   Positive sentiment : (compound score >= 0.05)  
   Neutral sentiment : (compound score > -0.05) and (compound score < 0.05)  
   Negative sentiment : (compound score <= -0.05)  
@@ -35,7 +35,7 @@ From July to August in 2020 there are more positive tweets with 70049 tweets com
 * **Daily Tweets Sentimental Analysis**  
 Using plotly to plot, shows label, date, and counts of each type of tweets.    
 ### Conclusion  
-There is a similar trend among three types of tweets. Most of the time there are more positive tweets, I did notice during 08/14 to 08/16 the amount of neural tweets exceed positive.
+I chose to use **VADER (Valence Aware Dictionary and sEntiment Reasoner)** for the sentiment analysis since VADER is a lexicon and rule-based tool that is specifically attuned to sentiments expressed in social media, like tweets. There is a similar trend among three types of tweets. Most of the time there are more positive tweets, I did notice during 08/14 to 08/16 the amount of neural tweets exceed positive.
 
 ### Problem
 The difficult I encountered is that plotly couldn't show on github. So I export the figure as a png file.
