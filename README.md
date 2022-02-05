@@ -17,13 +17,14 @@
    Remove Covid-related words since these are useless for my analysis  
    
    
-### Sentimental Analysis 
+### Sentimental Analysis - Use VADER module
 * **Adding Scores and Labels to the DataFrame**  
   Use **SentimentIntensityAnalyzer()** to determining whether a piece of writing is **positive, negative or neutral**. It will return score of positive, negative, neutral, 
   and coompound score. The Compound score is a metric that calculates the sum of all the lexicon ratings which have been normalized between 
   -1(most extreme negative) and +1 (most extreme positive).  
   
 * **Give each Tweet a label based on the compound score**  
+  Compound score is the normal of the 3 values negative, positive and neutral.  
   Positive sentiment : (compound score >= 0.05)  
   Neutral sentiment : (compound score > -0.05) and (compound score < 0.05)  
   Negative sentiment : (compound score <= -0.05)  
